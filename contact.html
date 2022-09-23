@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JLTC WEBSITE</title>
+    <link rel="icon" type="image/x-icon" href="img/jltc_logo.png" >
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="https://kit.fontawesome.com/332df52e79.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  
+    <script type="text/javascript">
+        emailjs.init('1gX1EsZxXLNXTHM6j')
+    </script>
+
+</head>
+<body id="body">
+    
+    <nav>
+
+        <div class="left-side" id="left-side">
+            <img src="img/jltc_logo.png">
+        </div>
+
+        <i class="fa-solid fa-bars" id="open"></i>
+        <div class="right-side" id="right-side">
+            <i class="fa-solid fa-x" id="close"></i>
+            <div class="home link" id="home"><a href="index.html">Home</a></div>
+            <div class="service link" id="service"><a href="service.html">Services</a></div>
+            <div class="about link" id="about"><a href="about.html">About Us</a></div>
+            <div class="contact link" id="contact"><a href="contact.html">Contact Us</a></div>
+            <div class="new link" id="new"><a href="branch.html">Branch</a></div>
+            <div class="eps link" id="eps"><a href="eps.html">EPS-TOPIK/KLT</a></div>
+            <div class="passers link" id="passers"><a href="passers.html" class="passers-org">Passers</a>
+                <div class="passers-container">
+                    <a href="#" class="passers-link">JFT-BASIC Passers</a>
+                    <a href="#" class="passers-link">JLPT Passers</a>
+                    <a href="#" class="passers-link">JTEST Passers</a>
+                    <a href="#" class="passers-link">JNAT Passers</a>
+                    <a href="#" class="passers-link">A1 GERMAN LAGUAGE PASSERS</a>
+                    <a href="#" class="passers-link">A2 GERMAN LANGUAGE PASSERS</a>
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="contact-section">
+        <img src="img/contact.jpg" alt="ContactPage">
+    </div>
+
+    <section>
+
+        <div class="contact-txt" id="home-txt">
+            <div class="main-txt" id="main-txt">CONTACT US</div>
+            <div class="sub-txt" id="sub-txt">
+                Our Language Center is located in <span>Unit 306 TDS building 72 Kamias Road, Quezon City (UNIONBANK KAMIAS)</span>. Food establishments, dormitories and shopping centers are located here to be enjoyed by the many students.
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1930.2002861053957!2d121.05467063164237!3d14.633188533203839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7a2f0b91d5f%3A0x5bb9ef1bf8b698fe!2sJLTC%20Language%2C%20Inc.!5e0!3m2!1sen!2sph!4v1663394428423!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact-container">
+                <div class="contact-container-icon">
+                    <a href="https://www.facebook.com/jltc.korean.language.training" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="contact-container-content">
+                    JLTC Languages
+                </div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-container-icon">
+                    <a href="mailto: jltcgroup@yahoo.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <div class="contact-container-content">
+                    jltcgroup@yahoo.com
+                </div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-container-icon">
+                    <a href="#"><i class="fa-solid fa-phone"></i></a>
+                </div>
+                <div class="contact-container-content">
+                    (02) 434 0697
+                </div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-container-icon">
+                    <a href="#" target="_blank"><i class="fa-solid fa-house"></i></a>
+                </div>
+                <div class="contact-container-content">
+                    Unit 306 TDS building 72 Kamias Road, Quezon City (UNIONBANK KAMIAS)
+                </div>
+            </div>
+            <div class="btn-container">
+                <button id="emailContainer">Go To Enrollment Form</button>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="form-container" id="form-container">
+        
+        <form id="form">
+            <i class="fa-solid fa-x" id="closeForm"></i>
+            <input type="email" id="email" name="email" placeholder="Email" required >
+            <input type="number" id="number" name="number" placeholder="Contact Number" required>
+            <input type="text" id="language" name="language" placeholder="Language/Academic Subjects Enrolled" required>
+            <input type="text" id="fullName" name="from_name" placeholder="FullName" required>
+            <input type="text" id="address" name="address" placeholder="Present Address" required>
+            <label for="birthday">Age :</label>
+            <input type="number" name="age" id="age" min="18" max="50" required>
+            <label for="birthday">BirthDate :</label>
+            <input type="date" id="birthday" name="birthday" placeholder="birthday" required>
+            <input type="text" id="birthPlace" name="birthplace" placeholder="BirthPlace" required>
+            <label for="gender">Gender :</label>
+            <select name="gender" id="gender">
+                <option value="male"></option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <input type="text" id="citizenship" name="citizenship" placeholder="Citizenship" required>
+            <input type="text" id="height" name="height" placeholder="Height" required>
+            <input type="text" id="weight" name="weight" placeholder="Weight" required>
+            <label for="status">Civil Status :</label>
+            <select name="status" id="status">
+                <option value=""></option>
+                <option value="single">Single</option>
+                <option value="married">Married</option>
+                <option value="separated">Separated</option>
+                <option value="widowed">Widowed</option>
+            </select>
+            <input type="text" id="spouse" name="spouse" placeholder="Spouse Name" required>
+            <input type="text" id="guardian" name="guardian" placeholder="Guardian" required>
+            <input type="number" id="guardianNumber" name="guardianNumber" placeholder="Guardian Contact Number" required>
+            <input type="text" id="guardianAddress" name="guardianAddress" placeholder="Present Address Of Guardian" required>
+            <label for="status">Elementary :</label>
+            <input type="text" id="school" name="school" placeholder="Name Of School" required>
+            <input type="text" id="schoolAddress" name="schoolAddress" placeholder="School Address" required>
+            <label for="yearGraduated">Year Graduated :</label>
+            <input type="month" id="yearGraduated" name="yearGraduated">
+
+            <label for="status">HighSchool :</label>
+            <input type="text" id="school1" name="school1" placeholder="Name Of School" required>
+            <input type="text" id="schoolAddress1" name="schoolAddress1" placeholder="School Address" required>
+            <label for="yearGraduated">Year Graduated :</label>
+            <input type="month" id="yearGraduated1" name="yearGraduated1">
+
+            <label for="status">College :</label>
+            <input type="text" id="school2" name="school2" placeholder="Name Of School" required>
+            <input type="text" id="schoolAddress2" name="schoolAddress2" placeholder="School Address" required>
+            <label for="yearGraduated">Year Graduated :</label>
+            <input type="month" id="yearGraduated2" name="yearGraduated2">
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="certify" name="certify" value="certify" required>
+                <label for="certify">I hereby certify that the facts contained in this Enrollment Form are true, correct and complete to the best of my knowledge.</label>
+            </div>
+
+            <input type="submit" id="button" value="Send Email" >
+        </form>
+    </div>
+    
+
+
+    <footer>
+        <div class="main-footer-txt">
+            About Us
+        </div>
+        <div class="sub-footer-txt" id="sub-footer-txt">
+            JLTC began 18 years ago February 26, 2004 at the heart of Metro Manila. Now, JLTC has become one of the leading provider of foreign language training, international exam review , college entrance examination test training and review, home-based academic tutorials, foreign language interpretation services, foreign language translation services, and advertising and print business services.
+        </div>
+        <div class="created">
+            &copy; Made By Ariel Calipay
+        </div>
+    </footer>
+
+    <script src="js/function.js"></script>
+</body>
+</html>

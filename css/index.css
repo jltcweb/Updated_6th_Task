@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.25s;
+}
+
+#home {
+    background: var(--mainbg-color);
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+#home a{
+    color: var(--white-color);
+}
+
+.right-side .link {
+    background: transparent;
+}
+
+.right-side div a {
+    color: black;
+}

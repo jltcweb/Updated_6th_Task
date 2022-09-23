@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.25s;
+}
+
+#service {
+    transform: scale(1.1);
+    background: var(--mainbg-color);
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+#service a {
+    color: white;
+}
+
+.right-side .link {
+    background: transparent;
+}
+
+.right-side div a {
+    color: black;
+}
